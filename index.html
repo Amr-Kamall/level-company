@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="jquery-ui-1.13.2.custom/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="jquery-ui-1.13.2.custom/jquery-ui.structure.css"
+    />
+    <link rel="stylesheet" href="jquery-ui-1.13.2.custom/jquery-ui.theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <!-- bootstrab -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>level company</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <nav class="navbar shadow-lg box-shadow navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo.png" alt="" />level
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" style="color: #fff" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end header -->
+
+    <!-- home section start -->
+    <div class="home" id="home">
+      <div class="container">
+        <form action="index.html">
+          <div class="form-group" style="flex: 100%">
+            <i class="fa-solid fa-location-dot"></i>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="type your destination..."
+            />
+          </div>
+
+          <div class="form-group">
+            <i class="fa-sharp fa-regular fa-calendar-days"></i>
+            <input
+              type="text"
+              class="form-control datepacker"
+              placeholder="check in"
+            />
+          </div>
+
+          <div class="form-group">
+            <i class="fa-sharp fa-regular fa-calendar-days"></i>
+            <input
+              type="text"
+              class="form-control datepacker"
+              placeholder="check out"
+            />
+          </div>
+
+          <div class="form-group">
+            <i class="fa-solid fa-bed"></i>
+            <select class="form-control">
+              <option value="" disabled selected>rooms</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <i class="fa-solid fa-user"></i>
+            <select class="form-control" placeholder="adults">
+              <option value="" disabled selected>adults</option>
+              <option value="">1</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <i class="fa-solid fa-user"></i>
+            <select class="form-control">
+              <option value="" disabled selected>children</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="submit"
+              class="form-control btn btn-danger"
+              value="check"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- home section end -->
+
+    <!-- start help section -->
+    <div class="help">
+      <div class="container text-center">
+        <h4>we are here to help you?</h4>
+        <p>subscripe to get our newsletters</p>
+        <button class="btn">subscrube newsletters</button>
+      </div>
+    </div>
+    <!-- end help section -->
+
+    <!--polygon starts  -->
+    <div class="polygon"></div>
+    <!--polygon end  -->
+
+    <!-- portfolio section starts -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row text-center">
+          <div class="box col-lg-4 px-0">
+            <i class="fa-solid fa-hammer"></i>
+            <h5>level html template by tooplate website</h5>
+            <p>Lorem ipsum provident iste neque corrupti, rerum blanditiis.</p>
+            <button class="btn bg-danger">continue reading</button>
+          </div>
+
+          <div class="box col-lg-4">
+            <i class="fa-solid fa-plane"></i>
+            <h5>original website template producer</h5>
+            <p>Lorem ipsum provident iste neque corrupti, rerum blanditiis.</p>
+            <button class="btn bg-danger">continue reading</button>
+          </div>
+
+          <div class="box col-lg-4">
+            <i class="fa-solid fa-inbox"></i>
+            <h5>contact us if you have any question</h5>
+            <p>Lorem ipsum provident iste neque corrupti, rerum blanditiis.</p>
+            <button class="btn bg-danger">continue reading</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends -->
+
+    <!-- section blog starts -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8">
+            <div class="sliders">
+              <div class="box">
+                <img src="images/img-01.jpg" alt="" />
+                <div class="content-box">
+                  <span class="d-block"
+                    >nunc in feils aliquet metus lucts iculles
+                  </span>
+                  <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laudantiu ipsum dolor .
+                  </p>
+                  <button class="btn bg-danger">get detail</button>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="images/img-02.jpg" alt="" />
+                <div class="content-box">
+                  <span class="d-block"
+                    >nunc in feils aliquet metus lucts iculles
+                  </span>
+                  <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laudantiu ipsum dolor .
+                  </p>
+                  <button class="btn bg-danger">get detail</button>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="images/img-03.jpg" alt="" />
+                <div class="content-box">
+                  <span class="d-block"
+                    >nunc in feils aliquet metus lucts iculles
+                  </span>
+                  <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laudantiu ipsum dolor .
+                  </p>
+                  <button class="btn bg-danger">get detail</button>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="images/img-04.jpg" alt="" />
+                <div class="content-box">
+                  <span class="d-block"
+                    >nunc in feils aliquet metus lucts iculles
+                  </span>
+                  <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laudantiu ipsum dolor .
+                  </p>
+                  <button class="btn bg-danger">get detail</button>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="images/img-05.jpg" alt="" />
+                <div class="content-box">
+                  <span class="d-block"
+                    >nunc in feils aliquet metus lucts iculles
+                  </span>
+                  <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laudantiu ipsum dolor .
+                  </p>
+                  <button class="btn bg-danger">get detail</button>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="images/img-01.jpg" alt="" />
+                <div class="content-box">
+                  <span class="d-block"
+                    >nunc in feils aliquet metus lucts iculles
+                  </span>
+                  <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laudantiu ipsum dolor .
+                  </p>
+                  <button class="btn bg-danger">get detail</button>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="images/img-02.jpg" alt="" />
+                <div class="content-box">
+                  <span class="d-block"
+                    >nunc in feils aliquet metus lucts iculles
+                  </span>
+                  <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laudantiu ipsum dolor .
+                  </p>
+                  <button class="btn bg-danger">get detail</button>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="images/img-03.jpg" alt="" />
+                <div class="content-box">
+                  <span class="d-block"
+                    >nunc in feils aliquet metus lucts iculles
+                  </span>
+                  <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laudantiu ipsum dolor .
+                  </p>
+                  <button class="btn bg-danger">get detail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="recommended">
+              <div class="recommended-places">
+                <span>recommended places</span>
+                <p>places that we recommended for you</p>
+              </div>
+              <div class="countries">
+                <div class="box-countries">
+                  <img src="images/tn-img-01.jpg" alt="" />
+                  <span>europe</span>
+                </div>
+
+                <div class="box-countries">
+                  <img src="images/tn-img-02.jpg" alt="" />
+                  <span>asia</span>
+                </div>
+
+                <div class="box-countries">
+                  <img src="images/tn-img-03.jpg" alt="" />
+                  <span>africa</span>
+                </div>
+
+                <div class="box-countries">
+                  <img src="images/tn-img-04.jpg" alt="" />
+                  <span>america</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section blog ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row pp">
+          <div class="col-lg-6 col-md-6 map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27581.58921295822!2d31.348344800000003!3d30.217147200000042!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14581ab73d4ca47d%3A0x89e1c92d1d007f67!2z2YXYr9mK2YbYqSDYp9mE2LnYqNmI2LHYjCDYp9mE2YLZhNmK2YjYqNmK2Kk!5e0!3m2!1sar!2seg!4v1686945485841!5m2!1sar!2seg"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <form action="" class="contact-form">
+              <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" class="form-control" placeholder="name" />
+              </div>
+
+              <div class="input-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" class="form-control" placeholder="email" />
+              </div>
+
+              <div class="input-group">
+                <i class="fa-solid fa-book"></i>
+                <input type="text" class="form-control" placeholder="subject" />
+              </div>
+
+              <div class="input-group">
+                <i class="fa-solid fa-comment-dots"></i>
+                <textarea
+                  style="height: 190px"
+                  name=""
+                  id=""
+                  cols="30"
+                  placeholder="message"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="submit"
+                  value="send message now"
+                  class="btn bg-danger"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer starts -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>
+          level<span><img src="images/logo.png" alt="" /></span>
+        </h3>
+
+        <p class="footer-links">
+          <a href="#home" class="link-1">Home</a>
+
+          <a href="#blog">Blog</a>
+
+          <a href="#portfolio">portfolio</a>
+
+          <a href="#contact">contact</a>
+        </p>
+
+        <p class="footer-company-name">Company level © 2015</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>87 obour1s</span> Solana Beach, California</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1.555.555.5555</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">support@level.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
+          euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="jquery-ui-1.13.2.custom/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
